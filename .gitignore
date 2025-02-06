@@ -1,8 +1,11 @@
 *.cmake
 Makefile
 CMakeFiles
-CmakeLists.txt
-CmakeCache.txt
+CMakeLists.txt
+CMakeCache.txt
+_build
+.vscode
+xla
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
