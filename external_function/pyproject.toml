@@ -1,0 +1,14 @@
+[build-system]
+requires = ["scikit-build-core", "jax[cuda12]>=0.5.0"]
+build-backend = "scikit_build_core.build"
+
+[project]
+name = "temp"
+version = "0.0.1"
+requires-python = ">=3.13"
+dependencies = ["jax[cuda12]"]
+
+[project.optional-dependencies]
+test = ["pytest", "absl-py"]
+
+
